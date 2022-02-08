@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useRef } from "react/cjs/react.production.min";
 import "../02-useEffect/effects.css";
 import MultipleCustomHooks from "../03-examples/MultipleCustomHooks";
 
