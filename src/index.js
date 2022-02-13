@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CallbackHooks from './components/06-memos/CallbackHooks';
-import MemoHook from './components/06-memos/MemoHook';
+import { Padre } from './components/07-tarea-memo/Padre';
+// import CallbackHooks from './components/06-memos/CallbackHooks';
+// import MemoHook from './components/06-memos/MemoHook';
 // import MultipleCustomHooks from './components/03-examples/MultipleCustomHooks';
 // import FocusScreen from './components/04-useRef/FocusScreen';
 // import RealExampleRef from './components/04-useRef/RealExampleRef';
@@ -9,6 +10,6 @@ import MemoHook from './components/06-memos/MemoHook';
 // import Memorize from './components/06-memos/Memorize'
 
 ReactDOM.render(
-  <CallbackHooks />,
+  <Padre />,
   document.getElementById('root')
 );
